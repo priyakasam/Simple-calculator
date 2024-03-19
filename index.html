@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">A Simple Calculator</h1>
+    <div class="main">
+        <label for="" id="l1">Number1:</label>
+        <input type="number" name="number1" id="n1"><br>
+        <label for="">Number2:</label>
+        <input type="number" name="number2" id="n2"><br>
+        <h1 id="res"></h1>
+        <div id="btn1" >
+            <input type="submit" value="ADD" onclick="addition()">
+            <input type="submit" value="SUB" onclick="subraction()">
+        </div>
+        <div id="btn2" >
+            <input type="submit" value="MUL" onclick="multiplication()">
+            <input type="submit" value="DIV" onclick="division()">
+        </div>
+        <div id="btn3" >
+            <input type="submit" value="REM" onclick="reminder()">
+            <input type="submit" value="POW" onclick="power()">
+        </div>
+        <div id="btn4" >
+            <input type="submit" value="RANDOM" onclick="random()">
+            <input type="submit" value="RESET" onclick="window.location.reload()">
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
